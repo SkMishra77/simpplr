@@ -42,12 +42,14 @@ INSTALLED_APPS = [
     'tasks',  # app
     'rest_framework_swagger',  # Swagger
     'rest_framework',  # Django rest framework
-    'drf_yasg'  # Yet Another Swagger generator
+    'drf_yasg',  # Yet Another Swagger generator
+    'corsheaders'
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -139,3 +141,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
 DATA_UPLOAD_MAX_MEMORY_SIZE = 2 * 1024 * 1024
+CORS_ALLOW_ALL_ORIGINS = True
