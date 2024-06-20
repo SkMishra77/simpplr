@@ -4,7 +4,7 @@ FROM python:3.10-slim
 # Set environment variables to prevent Python from writing .pyc files to disk and to buffer stdout and stderr
 ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
-ENV DEBUG=False
+ENV DEBUG=True
 ENV DEPLOYMENT=False
 
 # Install Poetry
