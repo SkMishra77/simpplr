@@ -1,0 +1,28 @@
+[
+  {
+    "model": "tasks.moviemodel",
+    "pk": 2,
+    "fields": {
+      "created_at": "2024-06-19T15:28:54.779Z",
+      "updated_at": "2024-06-19T15:28:54.779Z",
+      "name": "Mere Guru",
+      "director": "Sanat K Mishra",
+      "release_year": 2002,
+      "language": "hi",
+      "rating": "8.6"
+    }
+  },
+  {
+    "model": "tasks.moviemodel",
+    "pk": 3,
+    "fields": {
+      "created_at": "2024-06-20T07:57:44.814Z",
+      "updated_at": "2024-06-20T08:02:01.549Z",
+      "name": "Wanted",
+      "director": "LK Adwani",
+      "release_year": 2007,
+      "language": "en",
+      "rating": "5.6"
+    }
+  }
+]

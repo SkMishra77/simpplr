@@ -1,0 +1,107 @@
+[
+  {
+    "model": "tasks.languagemodel",
+    "pk": "as",
+    "fields": {
+      "name": "Assamese"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "bn",
+    "fields": {
+      "name": "Bengali"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "gu",
+    "fields": {
+      "name": "Gujarati"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "hi",
+    "fields": {
+      "name": "Hindi"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "kn",
+    "fields": {
+      "name": "Kannada"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "ks",
+    "fields": {
+      "name": "Kashmiri"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "ml",
+    "fields": {
+      "name": "Malayalam"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "mr",
+    "fields": {
+      "name": "Marathi"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "or",
+    "fields": {
+      "name": "Odia"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "pa",
+    "fields": {
+      "name": "Punjabi"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "sa",
+    "fields": {
+      "name": "Sanskrit"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "ta",
+    "fields": {
+      "name": "Tamil"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "te",
+    "fields": {
+      "name": "Telugu"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "ur",
+    "fields": {
+      "name": "Urdu"
+    }
+  },
+  {
+    "model": "tasks.languagemodel",
+    "pk": "en",
+    "fields": {
+      "name": "English"
+    }
+  }
+]
